@@ -1,53 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oklahoma City Grill Cleaning Service</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Oklahoma City Grill Cleaning Service</h1>
-        <p>Your grill deserves the best. We offer professional cleaning services for all types of grills and outdoor kitchens.</p>
-    </header>
-    
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Grill Cleaning</li>
-            <li>Outdoor Kitchen Cleaning</li>
-            <li>Pellet and Smoker Cleaning</li>
-            <li>Full Service Deep Cleaning</li>
-        </ul>
-    </section>
+/* styles.css */
 
-    <section id="before-after">
-        <h2>Before & After</h2>
-        <div class="image-container">
-            <img src="dirty-grill.jpg" alt="Dirty Grill" class="grill-image">
-            <img src="clean-grill.jpg" alt="Clean Grill" class="grill-image">
-        </div>
-    </section>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-    <section id="inquiry">
-        <h2>Get in Touch</h2>
-        <form action="send-email.php" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            
-            <button type="submit">Send Inquiry</button>
-        </form>
-    </section>
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
-    <footer>
-        <p>Serving Oklahoma City and surrounding areas. Contact us for a cleaner grill today!</p>
-    </footer>
-</body>
-</html>
+h1, h2 {
+    margin: 10px 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

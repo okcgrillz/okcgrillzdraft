@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OKC Grillz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Homepage Introduction -->
+    <header>
+        <h1>Welcome to OKC Grillz</h1>
+        <p>Buy the service of grill cleaning, outdoor kitchen cleaning, and oven cleaning. Discover grill cleaning from a point that a client would need it. Experience football gamedays spent like no other because it is the best with a clean grill that one would want to show off to their friends.</p>
+    </header>
+
+    <!-- About Us -->
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>OKC Grillz was founded in 2024. We aim to provide the best customer service for every client and create a story that is from humble beginnings.</p>
+    </section>
+
+    <!-- Products/Services Showcase -->
+    <section id="products-services">
+        <h2>Our Services</h2>
+        <p>We showcase grill cleaning benefits. Each service embodies key benefits such as:</p>
+        <ul>
+            <li>A healthy life</li>
+            <li>Less toxic carcinogens from cooking</li>
+            <li>No reason to clean a yucky grill yourself</li>
+        </ul>
+        <p>Prices range from $75-$250. Including a pic to your inquiry can help us to find your perfect fit.</p>
+    </section>
+
+    <!-- Blog Page -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Delve into grill cleaning benefits insights. Discover:</p>
+        <ul>
+            <li>Benefits to keeping your grill clean</li>
+            <li>Why carcinogens happen</li>
+            <li>Clean eating practices</li>
+        </ul>
+        <p>Stay informed about grill cooking ideas and new BBQ recipes to enhance your knowledge.</p>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <p>Reach us by filling in the form below:</p>
+        <form action="/submit-inquiry" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Inquiry</button>
+        </form>
+        <p>Expect a reply within 48 hours.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 OKC Grillz. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
 
